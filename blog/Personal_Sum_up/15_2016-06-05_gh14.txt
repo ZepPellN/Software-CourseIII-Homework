@@ -1,0 +1,5 @@
+who:顾晗
+when:第15周
+what:新功能初步实现
+problem:图片加载不使用回调函数，while(true)可能会堵死线程
+todo:完善界面+debug

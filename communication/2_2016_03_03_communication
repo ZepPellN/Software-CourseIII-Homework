@@ -1,0 +1,5 @@
+who:陈之威，顾晗，张诗琦，董轶波
+when:第二周（2016/03/03)
+what:讨论vo和po设计以及一些接口规范
+how long:3h
+arrived solutions:确定vo和po，张诗琦和董轶波实现项目界面，陈之威实现api获取与筛选，顾晗实现排序等逻辑。

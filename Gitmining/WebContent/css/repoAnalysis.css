@@ -1,0 +1,27 @@
+.card .ct-chart2{
+  margin: 20px 0 20px;
+  height: 300px;
+  width: 850px;
+}
+
+.carousel-indicators{
+    bottom: -30px;
+}
+
+.carousel-indicators li{
+    width: 13px;
+    height: 13px;
+}
+
+.carousel-indicators .active{
+    width: 15px;
+    height: 15px;
+}
+
+.carousel-indicators li{
+    border: 1px solid #F9684B;
+}
+
+.carousel-indicators .active{
+    background-color: #F9684B;
+}

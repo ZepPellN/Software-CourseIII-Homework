@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-4.2.xsd">
+
+	<bean id="datasource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url"
+			value="jdbc:mysql://182.254.138.226:3306/GitMining?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false" />
+		<property name="username" value="user" />
+		<property name="password" value="515LSMannabel!" />
+	</bean>
+
+	<bean id="UserDaoImp" class="dao.imp.UserDaoImp">
+		<property name="datasource" ref="datasource" />
+	</bean>
+
+	<bean id="RepoDaoImp" class="dao.imp.RepoDaoImp">
+		<property name="datasource" ref="datasource" />
+	</bean>
+
+	<bean id="EventDaoImp" class="dao.imp.EventDaoImp">
+		<property name="datasource" ref="datasource" />
+	</bean>
+
+	<bean id="CommitDaoImp" class="dao.imp.CommitDaoImp">
+		<property name="datasource" ref="datasource" />
+	</bean>
+	
+	<bean id="LogDaoImp" class="dao.imp.LogDaoImp">
+		<property name="datasource" ref="datasource" />
+	</bean>
+</beans>  

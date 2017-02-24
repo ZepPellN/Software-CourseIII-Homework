@@ -1,0 +1,5 @@
+who:陈之威，顾晗，张诗琦，董轶波
+when:第九周（2016/04/21)
+what:确定迭代三开发方向，任务分工
+how long:3h
+arrived solutions:无。

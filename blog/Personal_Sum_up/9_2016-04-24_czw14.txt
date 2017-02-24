@@ -1,0 +1,5 @@
+who：陈之威
+when：第9周
+what：学习数据库，云服务器配置，Jerkins配置
+problem：无
+todo：继续学习，完善测试代码

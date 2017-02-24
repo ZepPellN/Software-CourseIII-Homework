@@ -1,0 +1,5 @@
+who:陈之威，顾晗，张诗琦，董轶波
+when:第七周（2016/04/10)
+what:进一步完成迭代二代码，数据统计完善，图表完善。
+how long:3h
+arrived solutions:无。

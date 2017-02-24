@@ -1,0 +1,5 @@
+who：陈之威
+when：第2周
+what：通过api获取数据以及用Java实现数据层代码
+problem：对java如何调用Python脚本文件从而实现数据获取分析尚不熟悉
+todo：完成Python代码，实现java调用

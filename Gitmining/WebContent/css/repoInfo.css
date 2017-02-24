@@ -1,0 +1,146 @@
+.section-carousel {
+    padding-bottom: 48px;
+}
+
+.carousel-indicators{
+    bottom: 0px;
+}
+
+.carousel-inner .item{
+    border: none;
+}
+
+.thumbnail {
+    padding: 0;
+    background-color: #2D2D2D;
+    border: none;
+    box-shadow: 1px 1px 2px #ddd;
+}
+.thumbnail a img {
+    /*background-image: -webkit-linear-gradient(-405deg, #30D0DF 40%, #51F1FC 100%);*/
+    background-image: -webkit-linear-gradient(-90deg, transparent 0%, rgba(0,0,0,0.8) 100%);
+    background-image: linear-gradient(-180deg, transparent 0%, rgba(0,0,0,0.8) 100%);
+}
+
+.carousel-inner .thumbnail img{
+    width: 100%;
+}
+
+.carousel-inner .thumbnail .course-icon{
+    width: 20%;
+}
+
+.carousel-inner .thumbnail h3{
+	margin-top: 16%;
+    color: #fff;
+    text-shadow: 0px 1px 1px #999;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.carousel-inner .thumbnail h3 a {
+    color: #fff;
+    cursor: default;
+}
+.carousel-inner .thumbnail h3 a:hover {
+    color: #F9684B;
+    text-decoration: none;
+ 	cursor: pointer;
+}
+
+
+.carousel-inner .thumbnail .new-course-mask{
+    position: absolute;
+    width: 92%;
+    top: 20%;
+    text-align: center;
+}
+
+
+.carousel-inner .thumbnail .caption{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0px;
+}
+.carousel-inner .thumbnail .caption a{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0px;
+}
+.carousel-inner .thumbnail .caption a:hover{   
+    color: #F9684B;
+    font-size:1.5rem;
+    text-decoration: none;
+ 	cursor: pointer;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .carousel-inner .thumbnail .new-course-mask{
+        position: absolute;
+        width: 88%;
+
+        top: 12%;
+
+        text-align: center;
+    }
+
+}
+@media (max-width: 767px) {
+
+    .carousel-inner .thumbnail .new-course-mask{
+        position: absolute;
+        width: 88%;
+
+        top: 11%;
+
+        text-align: center;
+    }
+
+}
+
+.carousel-indicators{
+    bottom: -20px;
+}
+
+.carousel-indicators li{
+    width: 13px;
+    height: 13px;
+}
+
+.carousel-indicators .active{
+    width: 15px;
+    height: 15px;
+}
+.caption p{
+    margin-bottom: 20px;
+}
+
+.carousel-indicators li{
+    border: 1px solid #F9684B;
+}
+
+.carousel-indicators .active{
+    background-color: #F9684B;
+}
+
+.info-icon {
+    display: inline-block;
+    width: 84px;
+}
+
+.info-icon .box-f,
+.info-icon .box-f .box-s,
+.info-icon .box-f .box-s .box-t,
+.info-icon .box-f .box-s .box-t .overlay
+{
+    width: 64px;
+    height: 80px;
+    overflow: hidden;
+}
+.chart-legend .text-legend{
+	color: #F9684B;
+}
+

@@ -1,0 +1,5 @@
+who:顾晗
+when:第4周
+what:完成筛选功能的逻辑，动工统计数据处理
+problem:关于deep copy问题出了个bug
+todo:完成统计图表数据的处理

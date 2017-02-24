@@ -1,0 +1,5 @@
+who:顾晗
+when:第13周
+what:完成搜索功能的对接和sign in 界面
+problem:不知道怎么提交sign in表单给后台；翻页很丑
+todo:处理ajax请求和改写界面

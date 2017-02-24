@@ -1,0 +1,324 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport"
+		  content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+
+	<title>Repository</title>
+	<link href="https://github.com/favicon.ico" rel="shortcut icon" />
+	<link rel="stylesheet" type="text/css"
+		  href="/Insighter/web/static/css/semantic.min.css">
+
+</head>
+<body>
+<div class="content">
+	<link rel="stylesheet" type="text/css" href="menu.css">
+
+	<div class="menu">
+		<section>
+			<nav class="cl-effect-12", id="cl-effect-12">
+				<a href="homepage.html">Home</a>
+				<a href="repository.html">Repositories</a>
+				<a href="userpage.html">Users</a>
+				<a href="repoAnalysis.html">Statistics</a>
+
+			</nav>
+		</section>
+	</div>
+
+	<div class="ui main text container">
+		<link rel="stylesheet" type="text/css"
+			  href="repo.css">
+		<form id="search-repo-form" action="search" method="POST">
+			<div class="ui action input">
+
+				<input id="search-name" name="reponame" type="text" placeholder="Repository or User..."
+					   value="" ng-model="query">
+				<button id="search-repo-btn" type="submit" class="ui teal button"> Search </button>
+			</div>
+
+		</form>
+
+		<p id="repoid" style="display:none;">43</p>
+		<div id="repoinfo">
+			<!--客观信息-->
+			<h2 class="ui header">
+				<div class="headcontent">
+					<i class="github square icon small"></i><a href="...">technoweenie</a> / <a >attachment_fu</a>
+					<div class="sub header">
+						Treat an ActiveRecord model as a file attachment, storing its patch, size, content type, etc.<br />
+					</div>
+				</div>
+			</h2>
+			<div class="ui labeled input">
+				<!--<div class="ui label">clone </div>-->
+				<a class = "ui teal button" target="_blank" href="..." onclick="">Clone</a>
+				<input type="text" style="width:600px ;margin-left:30px" value="https://github.com/technoweenie/attachment_fu.git" readonly>
+
+			</div>
+			<a class="ui teal button" target="_blank" href="https://github.com/technoweenie/attachment_fu">More</a>
+
+			<div id="content" class="ui grid static">
+				<div class="ten wide column">
+					<h3>Repository Statistics</h3>
+					<div class="number repo">
+						<div class="star">
+							<div>
+								<span class="nums"style="color: #3FA48C;">1036</span>
+							</div>
+							<span  class="tips">stars</span>
+						</div>
+						<div class="fork">
+							<div>
+								<span class="nums" style="color: #3FA48C;">295</span>
+							</div>
+							<span class="tips">forks</span>
+						</div>
+						<div class="fork">
+							<div>
+								<span class="nums" style="color: #3FA48C;">5</span>
+							</div>
+							<span  class="tips">subscribers</span>
+						</div>
+						<div class="fork">
+							<div>
+								<span class="nums"style="color: #3FA48C;">24</span>
+							</div>
+							<span  class="tips">contributors</span>
+						</div>
+						<div class="fork">
+							<div>
+								<span class="nums"style="color: #3FA48C;">2</span>
+							</div>
+							<span  class="tips">collaborator</span>
+						</div>
+						<div class="fork">
+							<div>
+								<span class="nums"style="color: #3FA48C;">100</span>
+							</div>
+							<span class="tips">size</span>
+						</div>
+						<h3>Repository Timeline</h3>
+						<div class="number repo"></div>
+						<div class="fork">
+							<div>
+								<span class="nums"style="color: #3FA48C;">2012-12-10</span>
+							</div>
+							<span class="tips">Created time</span>
+						</div>
+						<div class="fork">
+							<div>
+								<span class="nums"style="color: #3FA48C;">2013-12-10</span>
+							</div>
+							<span class="tips">Last push time</span>
+						</div>
+						<div class="fork">
+							<div>
+								<span class="nums"style="color: #3FA48C;">2015-12-10</span>
+							</div>
+							<span class="tips">Last updated time</span>
+						</div>
+
+					</div>
+				</div>
+				<div class="six wide column">
+					<div id="reposcorePic" >
+						<script type="text/javascript">
+                    // 基于准备好的dom，初始化echarts实例
+                    var myChart = echarts.init(document.getElementById('six wide column'));
+
+                    // 指定图表的配置项和数据
+                    var option = {
+                        title: {
+                            text: 'Repo_Scores'
+                        },
+                        legend: {
+                            data: ['scores:']
+                        },
+                        tooltip: {
+                            trigger: 'axis'
+                        },
+                        radar: [
+                            {
+                                indicator: [
+                                    { text: 'star',max:1 },
+                                    { text: 'fork',max:1 },
+                                    { text: 'size',max:1 },
+                                    { text: 'collaborator',max:1 },
+                                    { text: 'contributor' ,max:1},
+                                    { text: 'subscribers',max:1}
+                                ],
+                                center: ['25%', '50%'],
+                                radius: 120,
+                                startAngle: 90,
+                                splitNumber: 4,
+                                shape: 'circle',
+                                name: {
+                                    formatter:'【{value}】',
+                                    textStyle: {
+                                        color:'#72ACD1'
+                                    }
+                                },
+                                splitArea: {
+                                    areaStyle: {
+                                        color: ['rgba(114, 172, 209, 0.2)',
+                                            'rgba(114, 172, 209, 0.4)', 'rgba(114, 172, 209, 0.6)',
+                                            'rgba(114, 172, 209, 0.8)', 'rgba(114, 172, 209, 1)'],
+                                        shadowColor: 'rgba(0, 0, 0, 0.3)',
+                                        shadowBlur: 10
+                                    }
+                                },
+                                axisLine: {
+                                    lineStyle: {
+                                        color: 'rgba(255, 255, 255, 0.5)'
+                                    }
+                                },
+                                splitLine: {
+                                    lineStyle: {
+                                        color: 'rgba(255, 255, 255, 0.5)'
+                                    }
+                                }
+                            },
+
+                        ],
+                        series: [
+                            {
+                                name: '雷达图',
+                                type: 'radar',
+                                tooltip: {
+                                    trigger: 'item'
+                                },
+
+                                itemStyle: {
+                                    normal: {areaStyle: {type: 'default'}},
+                                    emphasis: {
+                                        // color: 各异,
+                                        lineStyle: {
+                                            width: 4
+                                        }
+                                    }
+                                },
+                                data: [
+
+                                    {
+                                        value: [0.5,0.6,0.7,0.8,0.5,1.0],
+                                        name: 'scores',
+                                        areaStyle: {
+                                            normal: {
+                                                color: 'rgba(255, 255, 255, 0.5)'
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                        ]
+                    };
+                    myChart.setOption(option);
+                    </script>
+					</div>
+				</div>
+				<div class = "ten wide column">
+					<div id="repoActivityPic" style="..."></div>
+				</div>
+			</div>
+			<!--评分-->
+			<div id="reposcore" style="...">
+
+			</div>
+
+
+
+			<!--activity-->
+			<div id="repoactivity" style="...">
+				<!--<h3>Repo_Activities</h3>-->
+
+			</div>
+
+			<!--推荐-->
+			<div id="recommendlist" style="text-align: left;">
+				<h3>Recommend</h3>
+
+				<div class="ui grid">
+					<div class="three wide column">
+						<div class="ui segment">
+							<h3>related repos</h3>
+							<div class="ui relaxed divided list">
+								<div class="item">
+									<i class="large github middle aligned icon"></i>
+									<div class="content">
+										<a class="header"
+										   href="...">jessemiller/HamlPy</a>
+									</div>
+								</div>
+								<div class="item">
+									<i class="large github middle aligned icon"></i>
+									<div class="content">
+										<a class="header"
+										   href="...">rlaager/docsis</a>
+									</div>
+								</div>
+								<div class="item">
+									<i class="large github middle aligned icon"></i>
+									<div class="content">
+
+										<a class="header"
+										   href="...">rlaager/docsis</a>
+									</div>
+								</div>
+								<div class="item">
+									<i class="large github middle aligned icon"></i>
+									<div class="content">
+										<a class="header"
+										   href="...">simplepie/simplepie</a>
+									</div>
+								</div>
+								<div class="item">
+									<i class="large github middle aligned icon"></i>
+									<div class="content">
+										<a class="header"
+										   href="...">bingos/devel-patchperl</a>
+									</div>
+								</div>
+								<div class="item">
+									<i class="large github middle aligned icon"></i>
+									<div class="content">
+										<a class="header"
+										   href="...">jcf/ansible-dotfiles</a>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<script type="text/javascript" src="/Insighter/web/static/js/library/exporting.js"></script>
+		<script type="text/javascript" src="/Insighter/web/static/js/library/echarts.min.js"></script>
+
+		<!--<script type="text/javascript" src="/Gitmining_Html/web/static/js/repository.js"></script>-->
+
+	</div>
+	<div class="ui inverted vertical footer segment">
+		<div class="ui center aligned container">
+			<div class="ui horizontal inverted small divided link list">
+				Copyright © 2016 　Gitmining_Insighter
+			</div>
+
+		</div>
+	</div>
+</div>
+
+
+<script type="text/javascript" src="/Insighter/web/static/js/library/echarts.min.js"></script>
+<script src="/Insighter/web/static/js/library/semantic.min.js"></script>
+</body>
+</html> 

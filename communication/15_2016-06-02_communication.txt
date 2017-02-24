@@ -1,0 +1,5 @@
+who:陈之威，顾晗，张诗琦，董轶波
+when:第十五周（2016/06/02)
+what:完成所有界面基本开发，后台全部完成
+how long:3h
+arrived solutions:无。

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE urlrewrite
+    PUBLIC "-//tuckey.org//DTD UrlRewrite 4.0//EN"
+    "http://www.tuckey.org/res/dtds/urlrewrite4.0.dtd">
+<urlrewrite>
+    <rule>
+        <from>^/$</from>  
+        <to>/homepage.jsp</to> 
+    </rule>
+    
+    <rule>
+        <from>^/error$</from>  
+        <to>/error.jsp</to> 
+    </rule>
+    
+    <rule>
+        <from>^/register$</from>  
+        <to>/sign-in.jsp</to> 
+    </rule>
+    
+    <rule>
+        <from>^/analysis$</from>  
+        <to>/customer.jsp</to> 
+    </rule>
+    
+    <rule>
+        <from>^/analysis/repository$</from>  
+        <to>/repositoryAnalysis.jsp</to> 
+    </rule>
+    
+    <rule>
+        <from>^/analysis/user$</from>  
+        <to>/userAnalysis.jsp</to> 
+    </rule>
+    
+    <rule>
+        <from>^/welcome$</from>  
+        <to>/welcome.jsp</to> 
+    </rule>
+    
+    <rule>
+        <from>^/home/user/(.+)$</from>  
+        <to>/user.jsp?username=$1</to> 
+    </rule>
+    
+    <rule>
+        <from>^/home/repository/(.+)$</from>  
+        <to>/repository.jsp?reponame=$1</to> 
+    </rule>
+    
+    <rule>
+        <from>^/recommend/([^&amp;]+)&amp;([^&amp;]+)$</from>  
+        <to>/heat.jsp?name=$1&amp;recommend=$2</to> 
+    </rule>
+    
+    <rule>
+        <from>^/search/user/(.+)$</from>  
+        <to>/userSearch.jsp?user_key=$1</to> 
+    </rule>
+    
+    <rule>
+        <from>^/search/repository/([^/]+)$</from>  
+        <to>/repoSearch.jsp?repo_key=$1</to> 
+    </rule>
+    
+    <rule>
+        <from>^/search/category/([^/]+)$</from>  
+        <to>/repoSearch.jsp?category=$1</to> 
+    </rule>
+    
+    <rule>
+        <from>^/search/language/([^/]+)$</from>  
+        <to>/repoSearch.jsp?language=$1</to> 
+    </rule>
+    
+    <rule>
+        <from>^/search/year/([^/]+)$</from>  
+        <to>/repoSearch.jsp?year=$1</to> 
+    </rule>
+   
+    <rule>
+        <from>^/search/repository/([^/]+)/category/([^/]+)$</from>  
+        <to>/repoSearch.jsp?repo_key=$1&amp;category=$2</to> 
+    </rule>
+    
+    <rule>
+        <from>^/search/repository/([^/]+)/language/([^/]+)$</from>  
+        <to>/repoSearch.jsp?repo_key=$1&amp;language=$2</to> 
+    </rule>
+    
+    <rule>
+        <from>^/search/repository/([^/]+)/year/([^/]+)$</from>  
+        <to>/repoSearch.jsp?repo_key=$1&amp;year=$2</to> 
+    </rule>
+    
+    <rule>
+        <from>^/search/language/([^/]+)/category/([^/]+)$</from>  
+        <to>/repoSearch.jsp?language=$1&amp;category=$2</to> 
+    </rule>
+    
+    <rule>
+        <from>^/search/category/([^/]+)/year/([^/]+)$</from>  
+        <to>/repoSearch.jsp?category=$1&amp;year=$2</to> 
+    </rule>
+    
+    <rule>
+        <from>^/search/language/([^/]+)/year/([^/]+)$</from>  
+        <to>/repoSearch.jsp?language=$1&amp;year=$2</to> 
+    </rule>
+    
+    <rule>
+        <from>^/search/repository/([^/]+)/language/([^/]+)/category/([^/]+)$</from>  
+        <to>/repoSearch.jsp?repo_key=$1&amp;language=$2&amp;category=$3</to> 
+    </rule>
+
+	<rule>
+        <from>^/search/repository/([^/]+)/category/([^/]+)/year/([^/]+)$</from>  
+        <to>/repoSearch.jsp?repo_key=$1&amp;category=$2&amp;year=$3</to> 
+    </rule>
+
+	<rule>
+        <from>^/search/repository/([^/]+)/language/([^/]+)/year/([^/]+)$</from>  
+        <to>/repoSearch.jsp?repo_key=$1&amp;language=$2&amp;year=$3</to> 
+    </rule>
+    
+    <rule>
+        <from>^/search/category/([^/]+)/language/([^/]+)/year/([^/]+)$</from>  
+        <to>/repoSearch.jsp?category=$1&amp;language=$2&amp;year=$3</to> 
+    </rule>
+
+	<rule>
+        <from>^/search/repository/([^/]+)/language/([^/]+)/category/([^/]+)/year/([^/]+)$</from>  
+        <to>/repoSearch.jsp?repo_key=$1&amp;language=$2&amp;category=$3&amp;year=$4</to> 
+    </rule>
+</urlrewrite>

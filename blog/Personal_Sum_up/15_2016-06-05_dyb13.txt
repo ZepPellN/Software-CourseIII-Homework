@@ -1,0 +1,5 @@
+who：董轶波
+when:第15周
+what:尝试实现页面局部刷新
+problem:实现困难
+todo:完善界面+debug

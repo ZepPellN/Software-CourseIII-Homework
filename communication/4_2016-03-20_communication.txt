@@ -1,0 +1,5 @@
+who:陈之威，顾晗，张诗琦，董轶波
+when:第四周（2016/03/20)
+what:加入登录模块，一起调试代码，完善界面。
+how long:3h
+arrived solutions:无。

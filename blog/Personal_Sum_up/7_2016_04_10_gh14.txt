@@ -1,0 +1,5 @@
+who:顾晗
+when:第七周
+what:完成项目star,fork图表的逻辑层+debug
+problem: 逻辑层的数据缓存设置欠妥
+todo:确定功能的扩展以及统计对象的多样性

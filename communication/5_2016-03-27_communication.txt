@@ -1,0 +1,5 @@
+who:陈之威，顾晗，张诗琦，董轶波
+when:第五周（2016/03/27)
+what:进一步完成迭代二代码，解决部分同时开发数据bug。
+how long:3h
+arrived solutions:无。

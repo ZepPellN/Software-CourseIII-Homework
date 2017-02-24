@@ -1,0 +1,5 @@
+who:陈之威，顾晗，张诗琦，董轶波
+when:第十二周（2016/0５/０８)
+what:着手Java Web开发，后台重写，数据库连接
+how long:3h
+arrived solutions:无。

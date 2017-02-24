@@ -1,0 +1,206 @@
+/*body{*/
+/*!*width: 960px;*!*/
+/*!*margin: 15px auto;*!*/
+/*!*font-family: Arial, "MS Trebuchet", sans-serif;!*设置字体系列*!*!*/
+/*background-image: url(bg1.jpg);*/
+/*!*background-repeat:no-repeat;*!*/
+/*background-size:cover;*/
+/*}*/
+
+section#info{
+    position: absolute;
+    left: 60px;
+    top: 140px;
+    width: 310px;
+    /*outline-style: ridge;*/
+    /*background-image: url(transparent.png);*/
+}
+
+section#info img {
+    margin: 10px 10px 0 0;
+
+}
+
+section#info h3{
+    color: #AAAAAA;
+    font-family: sans-serif;
+}
+
+section#info p{
+    color: #CCEEFF;
+    font-size: 17px;
+    font-family: Calibri;
+}
+
+section#evaluation{
+    position: absolute;
+    left: 430px;
+    top: 150px;
+    width: 410px;
+    height: 180px;
+    /*outline-style: ridge;*/
+    font-family: "Buxton Sketch";
+    background-image: url(transparent.png);
+}
+
+section#evaluation h3#evaluation_head{
+    position: relative;
+    left: 5px;
+    top: -15px;
+    color: #ffffff;
+    font-family: "Arial Black";
+}
+
+section#evaluation div#circle_1{
+    position: relative;
+    left: 20px;
+    top: -25px;
+    width:110px;
+    height:110px;
+    background-color:#d4f1ff;
+    border-radius:55px;
+}
+
+section#evaluation p#n_1{
+    position: relative;
+    top: -35px;
+    line-height: 50px;
+    font-weight: 700;
+    font-size: 30px;
+    display: block;
+    color: #008800;
+    text-align: center;
+}
+
+section#evaluation h3#h_1{
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+section#evaluation div#circle_2{
+    position:absolute;
+    left: 150px;
+    top: 40px;
+    width:110px;
+    height:110px;
+    background-color:#d4f1ff;
+    border-radius:55px;
+}
+
+section#evaluation h3#h_2{
+    position: relative;
+    top: -20px;
+    line-height: 50px;
+    text-align: center;
+}
+
+section#evaluation p#n_2{
+    position: relative;
+    top: -55px;
+    line-height: 50px;
+    font-weight: 700;
+    font-size: 30px;
+    display: block;
+    color: #008800;
+    text-align: center;
+}
+
+section#evaluation div#circle_3{
+    position:absolute;
+    left: 280px;
+    top: 40px;
+    width:110px;
+    height:110px;
+    background-color:#d4f1ff;
+    border-radius:55px;
+}
+
+section#evaluation h3#h_3{
+    position: relative;
+    top: -20px;
+    line-height: 50px;
+    text-align: center;
+}
+
+section#evaluation p#n_3{
+    position: relative;
+    top: -55px;
+    line-height: 50px;
+    font-weight: 700;
+    font-size: 30px;
+    display: block;
+    color: #008800;
+    text-align: center;
+}
+
+section#repository{
+    position: absolute;
+    left: 920px;
+    top: 130px;
+    width: 420px;
+    /*outline-style: ridge;*/
+}
+
+section#repository section#popular{
+    /*position: absolute;*/
+    /*left: 920px;*/
+    /*top: 150px;*/
+    width: 420px;
+    /*outline-style: ridge;*/
+    background-image: url(transparent.png);
+    /*height: 180px;*/
+}
+
+section#repository section#popular ul{
+    list-style:none;
+    /*float: left;*/
+}
+
+section#repository section#popular h3#popular_head{
+    position: relative;
+    left: 5px;
+    top: 5px;
+    color: #ffffff;
+    font-family: "Arial Black";
+}
+
+section#repository section#popular ul li a{
+    font-family: Aharoni;
+    font-size: 20px;
+    color: #CCEEFF;
+}
+
+section#repository section#related{
+    position: relative;
+    left: 0;
+    top: 50px;
+    width: 420px;
+    /*outline-style: ridge;*/
+    background-image: url(transparent.png);
+    /*height: 180px;*/
+}
+
+section#repository section#related ul{
+    list-style:none;
+    /*float: left;*/
+}
+
+section#repository section#related h3#related_head{
+    position: relative;
+    left: 5px;
+    top: 5px;
+    color: #ffffff;
+    font-family: "Arial Black";
+}
+
+section#repository section#related ul li a{
+    font-family: Aharoni;
+    font-size: 20px;
+    color: #CCEEFF;
+}
+
+
+
+

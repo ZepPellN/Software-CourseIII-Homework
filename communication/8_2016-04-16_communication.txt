@@ -1,0 +1,5 @@
+who:陈之威，顾晗，张诗琦，董轶波
+when:第八周（2016/04/16)
+what:解决迭代二代码bug，发布应用
+how long:3h
+arrived solutions:无。

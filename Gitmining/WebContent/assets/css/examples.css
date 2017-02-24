@@ -1,0 +1,238 @@
+.landing-alert {
+  margin-bottom: 0;
+}
+
+.landing-header {
+  background-image: url('../../images/gallery4.jpg'); 
+  background-position: center;
+  background-size: cover;
+  min-height: 680px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+}
+
+.landing-header .motto {
+  padding-top: 12%;
+
+  text-align: center;
+  z-index: 3;
+}
+
+.landing-section {
+  padding: 100px 0;
+}
+
+.landing-section .btn-simple {
+  padding: 0;
+}
+
+.landing-section .column {
+  padding: 0 75px 0 25px;
+}
+
+.team-player .img-circle, .team-player .img-thumbnail {
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 120px;
+}
+
+.contact-form {
+  margin-top: 30px;
+}
+
+.contact-form label {
+  margin-top: 15px;
+}
+
+.contact-form .btn {
+  margin-top: 30px;
+}
+
+.navbar-relative {
+  position: relative;
+  z-index: 2;
+}
+
+#register-navbar a {
+  color: #FFF;
+}
+
+.register-background {
+  background-image: url("../../images/gallery1.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+  padding-top: 1px;
+}
+
+.register-background .filter-black::after {
+  background-color: rgba(0, 0, 0, 0.5);
+  content: "";
+  display: block;
+  height: 300px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.register-background .container {
+  margin-top: 11%;
+  position: relative;
+  z-index: 3;
+}
+
+.register-footer {
+  bottom: 20px;
+  color: #fff;
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+}
+
+.register-footer .fa-heart {
+  color: #EB5E28;
+}
+
+.register-card {
+  background-color: rgba(0, 0, 0, 0.85);
+  border-radius: 8px;
+  color: #F5E4DE;
+  max-width: 350px;
+  margin: 20px 0 70px;
+  min-height: 400px;
+  padding: 30px;
+}
+
+.register-card label {
+  margin-top: 15px;
+}
+
+.register-card .title {
+  color: #F5E4DE;
+  text-align: center;
+}
+
+.register-card .btn {
+  margin-top: 30px;
+}
+
+.register-card .forgot {
+  text-align: center;
+}
+
+.profile-background {
+  background-image: url("../../images/gallery1.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 300px;
+  position: relative;
+  margin-top: -110px;
+}
+
+.profile-background .filter-black::after {
+  background-color: rgba(0, 0, 0, 0.5);
+  content: "";
+  display: block;
+  height: 300px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.profile-content {
+  position: relative;
+}
+
+.owner .avatar {
+  margin-top: -85px;
+  padding: 15px;
+  position: relative;
+  z-index: 3;
+}
+
+.owner .name h4 {
+  margin-top: 10px;
+}
+
+.profile-tabs {
+  margin: 50px 0;
+  min-height: 300px;
+}
+
+#following h3 {
+  margin: 40px 0;
+}
+
+.follows .unfollow {
+  width: 15px;
+}
+
+.follows hr {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.alert h5 {
+  margin-bottom: 10px;
+}
+
+.section {
+  padding: 30px 0;
+  position: relative;
+  background-color: #f4f3ef;
+  background-image: linear-gradient(to bottom, transparent 0%, rgba(112, 112, 112, 0) 60%, rgba(186, 186, 186, 0.15) 100%);
+}
+
+.section-with-space {
+  padding: 60px 0;
+}
+
+.section-gray {
+  background-color: #EEEEEE;
+}
+
+.section-white {
+  background-color: #FFFFFF;
+}
+
+.section-nude {
+  background-color: #FFFCF5;
+}
+
+.section-light-brown {
+  background-color: #D8C1AB;
+  color: #FFFFFF;
+}
+
+.section-brown {
+  background-color: #A59E94;
+  color: #FFFFFF;
+}
+
+.section-light-blue {
+  background-color: #7A9E9F;
+  color: #FFFFFF;
+}
+
+.section-dark-blue {
+  background-color: #506367;
+  color: #FFFFFF;
+}
+
+.section-dark {
+  background-color: #1a1817;
+  color: #FFFFFF;
+}
+
+.section-transparent {
+  background-color: transparent;
+}

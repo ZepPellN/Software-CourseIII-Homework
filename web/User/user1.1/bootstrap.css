@@ -1,0 +1,106 @@
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #3FA48C;
+    background-image: url(2.png);
+    background-position: 0px 100px;
+    background-size: 1445px 695px;
+    background-repeat: no-repeat;
+    min-width: 600px;
+    max-width: 100% !important;
+}
+
+
+
+.welcome-block{
+    color: white;
+    font-family: 'Lato', Arial, Georgia;
+    font-weight: 100;
+}
+
+.welcome-block h1{
+    
+    /*font-family: :Arial, Georgia;*/
+    font-size: 64pt;
+    padding-top: 0.5em;
+    text-align: center;
+    /*margin: 200px, 200px;*/
+}
+
+.welcome-block h2{
+    font-size: 20pt;
+    padding-top: 0;
+    text-align: center;
+
+}
+
+.welcome-block a{
+    padding-left: 1em;
+    margin-left: 1em;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.ui.primary.button {
+    box-shadow: 0 0 0 0 rgba(34, 36, 38, .15) inset;
+}
+
+.ui.primary.button, .ui.primary.buttons .button {
+    background-color: #3FA48C;
+    color: #FFF;
+    text-shadow: none;
+    background-image: none;
+}
+
+.sign-in-button{
+    background-color: rgba(0,0,0,0);
+    color: #3FA48C;
+    font-family: 'Lato', Arial;
+    font-size: 20pt;
+    text-shadow: none;
+    background-image: none;
+    text-decoration: none;
+}
+
+.ui.huge.button, .ui.huge.buttons .button, .ui.huge.buttons .or {
+    font-size: 1em;
+}
+
+.ui.button {
+    cursor: pointer;
+    display: inline-block;
+    min-height: 1em;
+    outline: 0;
+    border: none;
+    vertical-align: baseline;
+    background: #E0E1E2;
+    color: rgba(0, 0, 0, .6);
+    font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    margin: 0 .25em 0 0;
+    padding: .78571429em 1.5em;
+    text-transform: none;
+    text-shadow: none;
+    font-weight: 700;
+    line-height: 1em;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    border-radius: .28571429rem;
+    box-shadow: 0 0 0 1px transparent inset, 0 0 0 0 rgba(34, 36, 38, .15) inset;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: opacity .1s ease, background-color .1s ease, color .1s ease, box-shadow .1s ease, background .1s ease;
+    transition: opacity .1s ease, background-color .1s ease, color .1s ease, box-shadow .1s ease, background .1s ease;
+    will-change: '';
+    -webkit-tap-highlight-color: transparent;
+}
+
+

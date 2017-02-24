@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="Gitmining/src/main/java"/>
+	<classpathentry kind="src" path="Gitmining/src/test/java"/>
+	<classpathentry kind="lib" path="Gitmining/jmathplot/jmathplot-20140613.jar"/>
+	<classpathentry kind="lib" path="Gitmining/jmathplot/jmathplot.jar"/>
+	<classpathentry kind="lib" path="Gitmining/lib/ECharts-2.0.4.jar"/>
+	<classpathentry kind="lib" path="Gitmining/lib/ECharts-2.1.8.jar"/>
+	<classpathentry kind="lib" path="Gitmining/lib/jcommon-1.0.22.jar"/>
+	<classpathentry kind="lib" path="Gitmining/lib/jfreechart-1.0.18.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="Gitmining/client/target/classes"/>
+</classpath>

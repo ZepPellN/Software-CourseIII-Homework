@@ -1,0 +1,5 @@
+who:顾晗
+when:第八周
+what:更改user和repository的活动记录逻辑+对接推荐项目+debug
+problem:none
+todo:none

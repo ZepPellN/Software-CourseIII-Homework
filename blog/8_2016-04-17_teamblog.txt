@@ -1,0 +1,4 @@
+when：第八周
+what：解决bug，完善界面，发布应用，结束迭代二
+problem：无
+todo：准备迭代三开发

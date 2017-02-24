@@ -1,0 +1,5 @@
+who:陈之威，顾晗，张诗琦，董轶波
+when:第九周（2016/04/24)
+what:学习迭代三开发需要的新知识，Jerkins配置
+how long:3h
+arrived solutions:无。

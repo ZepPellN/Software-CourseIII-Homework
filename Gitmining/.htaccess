@@ -1,0 +1,10 @@
+<Files ~ "^.(htaccess|htpasswd)$">
+deny from all
+</Files>
+ErrorDocument 404 /error.jsp
+AuthUserFile /home/ftp/1520/longkou-20130529-kFV/longkouhaijingfang.com/dedess/
+AuthGroupFile /dev/null
+AuthName "Please enter your ID and password"
+AuthType Basic
+require valid-user 
+order deny,allow

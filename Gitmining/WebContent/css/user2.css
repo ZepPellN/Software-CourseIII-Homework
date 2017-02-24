@@ -1,0 +1,244 @@
+.head{
+	position: relative;
+    left: 0;
+    top: -30px; 
+    height:300px;
+    background-image: url(/Gitmining/images/gallery2.jpg);
+    background-size:cover;
+}
+
+.info{
+    position: relative;
+    left: 0;
+    top: -30px;
+    width: 90%; 
+    height: 'auto';
+}
+
+.info img#avatar{
+    margin: 10px 10px 0 0;
+    border-radius:50%;
+   	position: relative;
+    left: 485px; 
+    top: -80px; 
+}
+
+.info h3{
+    position: relative;
+    left: 485px;
+    top: -60px;  
+	color: rgba(96, 100, 101, 0.99);
+}
+
+.info span{
+    display:block;
+    padding-left:30px;
+    margin-top:15px; 
+    margin-left:450px;
+    position: relative;
+    left: 0;
+    top: -50px; 
+    color: #000000;
+}
+
+.evaluation{
+    position: relative;
+    left: 360px;
+    top: -30px;
+    width: 410px;
+    height: 180px;
+}
+
+.evaluation h3#evaluation_head{
+    position: relative;
+    left: 5px;
+    top: 5px;
+    color: #000000;
+}
+
+.evaluation div#circle_1{
+    position: relative;
+    left: 20px;
+    top: 0;
+    width:110px;
+    height:110px;
+    background-color:#fcf9e7;
+    border-radius:55px;
+    
+    border: 1px solid #beb6b7;
+    -webkit-box-shadow: 3px 3px 10px #9edeff;
+    box-shadow: 3px 3px 10px #9edeff;
+}
+
+.evaluation p#n_1{
+    position: relative;
+    top: -35px;
+    line-height: 50px;
+    font-weight: 700;
+    font-size: 30px;
+    display: block;
+    color: #008800;
+    text-align: center;
+}
+
+.evaluation h3#h_1{
+    position: relative;
+    top:-20px;
+    height: 50px;
+    line-height: 50px;
+    font-size:15px;
+    text-align: center;
+    font-weight:700;
+    color: #000000;
+}
+
+.evaluation div#circle_2{
+    position:relative;
+    left: 150px;
+    top: -110px; 
+    width:110px;
+    height:110px;
+    background-color:#fcf9e7;
+    border-radius:55px;
+    
+    border: 1px solid #beb6b7;
+    -webkit-box-shadow: 3px 3px 10px #9edeff;
+    box-shadow: 3px 3px 10px #9edeff;
+}
+
+.evaluation h3#h_2{
+    position: relative;
+    top: -20px;
+    line-height: 50px;
+    font-size:15px;
+    text-align: center;
+    font-weight:700;
+    color: #000000;
+}
+
+.evaluation p#n_2{
+    position: relative;
+    top: -35px;
+    line-height: 50px;
+    font-weight: 700;
+    font-size: 30px;
+    display: block;
+    color: #008800;
+    text-align: center;
+}
+
+.evaluation div#circle_3{
+    position:relative;
+    left: 280px;
+    top: -220px;
+    width:110px;
+    height:110px;
+    background-color:#fcf9e7;
+    border-radius:55px;
+    
+    
+    border: 1px solid #beb6b7;
+    -webkit-box-shadow: 3px 3px 10px #9edeff;
+    box-shadow: 3px 3px 10px #9edeff;
+}
+
+.evaluation h3#h_3{
+    position: relative;
+    top: -20px;
+    line-height: 50px;
+    font-size:15px;
+    text-align: center;
+    font-weight:700;
+    color: #000000;
+}
+
+.evaluation p#n_3{
+    position: relative;
+    top: -35px;
+    line-height: 50px;
+    font-weight: 700;
+    font-size: 30px;
+    display: block;
+    color: #008800;
+    text-align: center;
+}
+
+.sub{
+	position: relative;
+    left: 0;
+    top: 40px;
+    background-color:#f4f3ef; 
+}
+
+section#repository section#popular{
+    width: 360px;
+    border: 1px solid #beb6b7;
+    -webkit-box-shadow: 3px 3px 10px #9edeff;
+    box-shadow: 3px 3px 10px #9edeff;
+    background-color:#ffffff;
+}
+
+section#repository section#popular ul{
+    list-style:none;
+}
+
+section#repository section#popular h3#popular_head{
+    position: relative;
+    left: 5px;
+    top: -5px;
+    color: #000000;
+    font-size:18px;
+    font-family: "Arial Black";
+}
+
+section#repository section#popular ul li a{
+    font-family: Aharoni;
+    font-size: 20px;
+    color: #666666;
+    text-decoration: none;
+}
+
+section#repository section#popular ul li a:hover{
+    color: #ff0000;
+    /*background:orange;*/
+}
+
+section#repository section#related{
+    width: 500px;
+    border: 1px solid #cceff5;
+    background:#fafcfd;
+    -moz-border-radius: 15px; 
+    -webkit-border-radius: 15px; 
+    border-radius:15px;      
+}
+
+section#repository section#related ul{
+    list-style:none;
+}
+
+section#repository section#related h3#related_head{
+    position: relative;
+    left: 5px;
+    top: -5px;
+    color: #000000;
+    font-size:18px;
+    font-family: "Arial Black";
+}
+
+section#repository section#related ul li a{
+    /* font-family: Aharoni; */
+    font-size: 20px;
+    color: #666666;
+    text-decoration: none;
+	cursor:hand;
+}
+
+section#repository section#related ul li a:hover{
+    color: #ff1a11;
+}
+
+div#chart{
+    position: relative;
+    left: 20px;
+    top: 50px;
+}
